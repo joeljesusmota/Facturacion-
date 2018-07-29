@@ -1,0 +1,11 @@
+C:\Facturacion\bin\Debug\netcoreapp2.1\Facturacion.deps.json
+C:\Facturacion\bin\Debug\netcoreapp2.1\Facturacion.runtimeconfig.json
+C:\Facturacion\bin\Debug\netcoreapp2.1\Facturacion.runtimeconfig.dev.json
+C:\Facturacion\bin\Debug\netcoreapp2.1\Facturacion.dll
+C:\Facturacion\bin\Debug\netcoreapp2.1\Facturacion.pdb
+C:\Facturacion\obj\Debug\netcoreapp2.1\Facturacion.csprojAssemblyReference.cache
+C:\Facturacion\obj\Debug\netcoreapp2.1\Facturacion.csproj.CoreCompileInputs.cache
+C:\Facturacion\obj\Debug\netcoreapp2.1\Facturacion.AssemblyInfoInputs.cache
+C:\Facturacion\obj\Debug\netcoreapp2.1\Facturacion.AssemblyInfo.cs
+C:\Facturacion\obj\Debug\netcoreapp2.1\Facturacion.dll
+C:\Facturacion\obj\Debug\netcoreapp2.1\Facturacion.pdb
