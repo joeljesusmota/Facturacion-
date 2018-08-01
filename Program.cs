@@ -8,6 +8,8 @@ namespace Facturacion
         {
             Usuario us = new Usuario();
             us.login();
+           // Productos gp = new Productos();
+            //gp.getProductos();
         }
     }
 }
