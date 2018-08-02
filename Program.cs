@@ -6,10 +6,12 @@ namespace Facturacion
     {
         static void Main(string[] args)
         {
-            Usuario us = new Usuario();
-            us.login();
+           // Usuario us = new Usuario();
+            //us.login();
            // Productos gp = new Productos();
             //gp.getProductos();
+            Factura ft = new Factura();
+            ft.getFactura();
         }
     }
 }
@@ -18,5 +20,5 @@ namespace Facturacion
 
 
 
-Chris:  Aqui mismo?
+Chris:
  */

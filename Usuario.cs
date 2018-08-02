@@ -5,17 +5,27 @@ namespace Facturacion
     public class Usuario
     {
         #region Atributos 
-        private string user;
+        private string username;
         private string password;
-        private string getUser;
+        private string getUsername;
         private string getPassword;
         private bool validacion;
         #endregion
+
+        public string usernamename{
+            get{
+                return username;
+            }
+            set{
+                username = value;
+            }
+        }
+        
         public Usuario()
         {  
-          user = "chris";
+          username = "chris";
           password = "joel";
-          getUser = "";
+          getUsername = "";
           getPassword = "";
         }
         public bool login()
@@ -23,19 +33,19 @@ namespace Facturacion
             do
             {
                 Console.Write("Usuario:");
-                getUser = Console.ReadLine();
+                getUsername = Console.ReadLine();
                 Console.Write("Contraseña:");
                 getPassword = Console.ReadLine();
           
-                if(getUser!=user | getPassword!=password)
+                if(getUsername!=username | getPassword!=password)
                 {
                     Console.WriteLine("Usuario no registrado, intentelo otra vez!");
                 }
             }
-            while(getUser!=user | getPassword!=password);
+            while(getUsername!=username | getPassword!=password);
             {    
                 // Console.Clear();
-                 Console.WriteLine("Bienbenido {0}",getUser);
+                 Console.WriteLine("Bienbenido {0}",getUsername);
                  validacion = true;
                  return validacion;
             }            

@@ -1,0 +1,8 @@
+------------------------------------------
+Nombre producto #1: salami
+Descripcion producto #1: induveca
+
+------------------------------------------
+Nombre producto #2: X
+Descripcion producto #2: X
+
