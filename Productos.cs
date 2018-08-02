@@ -13,7 +13,32 @@ namespace Facturacion
         {} 
         public void getProductos()
         {
-          
+          string[] nombres = new string[5];
+          int[] edad = new int[5];
+          int edadCap = 0;
+
+          for(int i = 0; i < nombres.Length; i++)
+          {
+              Console.WriteLine("Ingrese el nombre de la persona" + (i+1));
+              nombres[i] = Console.ReadLine();
+
+               while(int.TryParse(Console.ReadLine(), out edadCap))
+                  Console.WriteLine("Ingrese la edad de" + nombres[i]);
+                edad[i] = edadCap;
+
+                Console.Clear();
+          } 
+
+          Console.WriteLine("Las personas mayores de edad son");
+
+          for(int j = 0 ; j < nombres.Length; j++)
+          {
+              if(edad[j] >=18)
+                Console.WriteLine(nombres[j] + "con" + edad[j] + "años.");
+          }
+
+         
+
         }
     }
 }
