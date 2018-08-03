@@ -1,8 +1,69 @@
+*************** Factura: #1 **************
 ------------------------------------------
-Nombre producto #1: salami
-Descripcion producto #1: induveca
+Producto: #1
+Nombre: sala
+Descripcion: as
+Valor: 0
+Cantidad: 0
+Cantidad: 0
+------------------------------------------
+Producto: #2
+Nombre: x
+Descripcion: 
+Valor: 0
+Cantidad: 0
+Cantidad: 0
+8/3/2018 12:00:00 AM
+********************************************
 
+*************** Factura: #2 **************
 ------------------------------------------
-Nombre producto #2: X
-Descripcion producto #2: X
+Producto: #1
+Nombre: as
+Descripcion: as
+Valor: 0
+Cantidad: 0
+Cantidad: 0
+------------------------------------------
+Producto: #2
+Nombre: as
+Descripcion: as
+Valor: 0
+Cantidad: 0
+Cantidad: 0
+------------------------------------------
+Producto: #3
+Nombre: x
+Descripcion: 
+Valor: 0
+Cantidad: 0
+Cantidad: 0
+8/3/2018 12:00:00 AM
+********************************************
+
+*************** Factura: #1 **************
+Colmado Jose Luis
+Tel: 809-456-4564 | Cel: 829-456-7841 
+++++++++++++++++++++++++++++++++++++++++++++
+------------------------------------------
+Producto: #1
+Nombre: coca
+Descripcion: regre
+Valor: 0
+Cantidad: 0
+Total: 0
+------------------------------------------
+Producto: #2
+Nombre: x
+Descripcion: 
+Valor: 0
+Cantidad: 0
+Total: 0
+
+++++++++++++++++++++++++++++++++++++++++++++
+Nonbre del cliente: 
+Emicion de factura: 
+Valor total:
+
+******************************************
 

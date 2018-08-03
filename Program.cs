@@ -6,19 +6,10 @@ namespace Facturacion
     {
         static void Main(string[] args)
         {
-           // Usuario us = new Usuario();
-            //us.login();
-           // Productos gp = new Productos();
-            //gp.getProductos();
-            Factura ft = new Factura();
-            ft.getFactura();
+           Usuario us = new Usuario();
+           bool vl = us.login();
+           Factura ft = new Factura(); 
+           ft.getFactura(vl);
         }
     }
 }
-
-/*joel:
-
-
-
-Chris:
- */

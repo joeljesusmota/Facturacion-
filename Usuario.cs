@@ -44,8 +44,14 @@ namespace Facturacion
             }
             while(getUsername!=username | getPassword!=password);
             {    
-                // Console.Clear();
-                 Console.WriteLine("Bienbenido {0}",getUsername);
+                 Console.WriteLine("****************************************");
+                 Console.WriteLine("*                                      *");
+                 Console.WriteLine("*                                      *");
+                 Console.WriteLine("          Bienbenido {0}",getUsername);
+                 Console.WriteLine("*                                      *");
+                 Console.WriteLine("*                                      *");
+                 Console.WriteLine("****************************************");
+                 Console.WriteLine("");
                  validacion = true;
                  return validacion;
             }            
