@@ -18,9 +18,7 @@ namespace Facturacion
        #endregion
 
         public Factura()
-        {
-           
-        }
+        {}
 
         public void getFactura()
         {
@@ -49,10 +47,6 @@ namespace Facturacion
              Console.WriteLine("************** Factura: #{0}**************",nFactura);
              postFactuta();
 
-             Console.WriteLine("Desea facturar nuevamente?  'y' o 'n'");   
-             x = Console.ReadLine();
-             if (x == "y"){getFactura();}
-             else{Console.WriteLine("bye");}
            }
           
         }
@@ -63,6 +57,12 @@ namespace Facturacion
             readFactura = new StreamReader("facturaFile.txt");
             Console.WriteLine(readFactura.ReadToEnd());
             readFactura.Close();
+        
+          Console.WriteLine("Desea facturar nuevamente?  'y' o 'n'");   
+             x = Console.ReadLine();
+             if (x == "y"){getFactura();}
+             else{Console.WriteLine("bye");}
+           
         }
     }
 }
