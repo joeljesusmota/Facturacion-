@@ -15,6 +15,7 @@ namespace Facturacion
         private int nFactura;
         private int value;
         private int total;
+        private int totalValue;
         private string x;
         private bool y;
        #endregion
@@ -34,7 +35,6 @@ namespace Facturacion
                 getFacturaFile.WriteLine("*************** Factura: #{0} **************",nFactura);
                 getFacturaFile.WriteLine("Colmado Jose Luis");
                 getFacturaFile.WriteLine("Tel: 809-456-4564 | Cel: 829-456-7841 ");
-                getFacturaFile.WriteLine("++++++++++++++++++++++++++++++++++++++++++++");
                 
             do
             {
@@ -62,28 +62,32 @@ namespace Facturacion
                     getFacturaFile.WriteLine("Cantidad: {0}", quantity);
                     getFacturaFile.WriteLine("Total: {0}", total);           
                     
+
+
                      // if(nameP == "x");{y=true;}
                      // else{y=false;}
+
+                     //totalValue += value;
             } 
             while(nameP!="x");
             {
                 nProduct=0;
                 DateTime thisDay = DateTime.Today;
                 Console.WriteLine("Nonbre del cliente");
-                nameP = Console.ReadLine();
+                nameC = Console.ReadLine();
 
                 getFacturaFile.WriteLine("");
-                getFacturaFile.WriteLine("++++++++++++++++++++++++++++++++++++++++++++");
+                getFacturaFile.WriteLine("++++++++++++++++++++++++++++++++++++++++++");
                 getFacturaFile.WriteLine("Nonbre del cliente: {0}",nameC);
                 getFacturaFile.WriteLine("Emicion de factura: ",thisDay.ToString());
-                getFacturaFile.WriteLine("Valor total:");
+                getFacturaFile.WriteLine("Valor total: ",totalValue);
                 getFacturaFile.WriteLine("");
                 getFacturaFile.WriteLine("******************************************");
                 getFacturaFile.WriteLine("");
                 getFacturaFile.Close();
                 Console.Clear();
                 
-                postFactuta();
+                postFactuta(); 
 
                 Console.WriteLine("Desea facturar nuevamente?  'y' o 'n'");   
                 x = Console.ReadLine();

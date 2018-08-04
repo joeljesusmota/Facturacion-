@@ -47,7 +47,7 @@ namespace Facturacion
                  Console.WriteLine("****************************************");
                  Console.WriteLine("*                                      *");
                  Console.WriteLine("*                                      *");
-                 Console.WriteLine("          Bienbenido {0}",getUsername);
+                 Console.WriteLine("          Bienvenido {0}",getUsername);
                  Console.WriteLine("*                                      *");
                  Console.WriteLine("*                                      *");
                  Console.WriteLine("****************************************");
