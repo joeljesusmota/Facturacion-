@@ -11,15 +11,6 @@ namespace Facturacion
         private string getPassword;
         private bool validacion;
         #endregion
-
-        public string usernamename{
-            get{
-                return username;
-            }
-            set{
-                username = value;
-            }
-        }
         
         public Usuario()
         {  
@@ -30,6 +21,7 @@ namespace Facturacion
         }
         public bool login()
         {
+            Console.WriteLine("Colmado Jose Luis¡");
             do
             {
                 Console.Write("Usuario:");

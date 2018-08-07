@@ -3,23 +3,41 @@ Colmado Jose Luis
 Tel: 809-456-4564 | Cel: 829-456-7841 
 ------------------------------------------
 Producto: #1
-Nombre: salami
-Descripcion: induveca
+Nombre: ohpo
+Descripcion: uil
 Valor: 0
 Cantidad: 0
 Total: 0
 ------------------------------------------
 Producto: #2
-Nombre: x
-Descripcion: 
+Nombre: ukyk
+Descripcion: yii
 Valor: 0
 Cantidad: 0
 Total: 0
 
-++++++++++++++++++++++++++++++++++++++++++++
-Nonbre del cliente: luis
+++++++++++++++++++++++++++++++++++++++++++
+Nonbre del cliente: chris
 Emicion de factura: 
-Valor total:
+Valor total: 
+
+******************************************
+
+*************** Factura: #2 **************
+Colmado Jose Luis
+Tel: 809-456-4564 | Cel: 829-456-7841 
+------------------------------------------
+Producto: #1
+Nombre: igioyg
+Descripcion: +òlò
+Valor: 0
+Cantidad: 0
+Total: 0
+
+++++++++++++++++++++++++++++++++++++++++++
+Nonbre del cliente: frank
+Emicion de factura: 
+Valor total: 
 
 ******************************************
 
@@ -28,28 +46,28 @@ Colmado Jose Luis
 Tel: 809-456-4564 | Cel: 829-456-7841 
 ------------------------------------------
 Producto: #1
-Nombre: saf
-Descripcion: asdf
+Nombre: fkygh
+Descripcion: yfy
 Valor: 0
 Cantidad: 0
 Total: 0
 ------------------------------------------
 Producto: #2
-Nombre: asdf
-Descripcion: sadf
+Nombre: fkygh
+Descripcion: gyiky
 Valor: 0
 Cantidad: 0
 Total: 0
 ------------------------------------------
 Producto: #3
-Nombre: x
+Nombre: oilyi
 Descripcion: 
 Valor: 0
 Cantidad: 0
 Total: 0
 
-++++++++++++++++++++++++++++++++++++++++++++
-Nonbre del cliente: ha
+++++++++++++++++++++++++++++++++++++++++++
+Nonbre del cliente: chris
 Emicion de factura: 
 Valor total: 
 

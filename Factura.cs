@@ -16,20 +16,19 @@ namespace Facturacion
         private int value;
         private int total;
         private int totalValue;
+        private int menu;
         private string x;
-        private bool y;
+        private string y;
        #endregion
 
         public Factura()
         {}
-
-        public void getFactura(bool vl)
+        public void getFactura()
         {
-            if(vl == true)
-            {
+            
                 nFactura ++;
-            // TextWriter archivo;
-            //archivo = new StreamWriter("archivo.txt");
+                // TextWriter archivo;
+                //archivo = new StreamWriter("archivo.txt");
                 Console.WriteLine("'x' para cerrar la factura");
                 StreamWriter getFacturaFile = File.AppendText("facturaFile.txt");
                 getFacturaFile.WriteLine("*************** Factura: #{0} **************",nFactura);
@@ -39,7 +38,7 @@ namespace Facturacion
             do
             {
                 nProduct ++;
-               
+                    
                     //obtener datos
                     Console.WriteLine("Nonbre del producto");
                     nameP = Console.ReadLine();
@@ -51,8 +50,9 @@ namespace Facturacion
                     //quantity = Console.Read();
 
                     //calculo
-                   // value = quantity * price;
-
+                    // value = quantity * price;
+                    //totalValue += value;
+                     
                     //imprecion
                     getFacturaFile.WriteLine("------------------------------------------");
                     getFacturaFile.WriteLine("Producto: #{0}" ,nProduct);
@@ -61,15 +61,13 @@ namespace Facturacion
                     getFacturaFile.WriteLine("Valor: {0}", value);
                     getFacturaFile.WriteLine("Cantidad: {0}", quantity);
                     getFacturaFile.WriteLine("Total: {0}", total);           
-                    
-
-
-                     // if(nameP == "x");{y=true;}
-                     // else{y=false;}
-
-                     //totalValue += value;
+                
+                              
+                    Console.WriteLine("'y' para continuar");
+                    y = Console.ReadLine();
+                    if(y=="y"){};         
             } 
-            while(nameP!="x");
+            while(y=="y");
             {
                 nProduct=0;
                 DateTime thisDay = DateTime.Today;
@@ -87,20 +85,16 @@ namespace Facturacion
                 getFacturaFile.Close();
                 Console.Clear();
                 
-                postFactuta(); 
+                postFactura(); 
 
                 Console.WriteLine("Desea facturar nuevamente?  'y' o 'n'");   
                 x = Console.ReadLine();
-                if (x == "y"){getFactura(vl);}
+                if (x == "y"){getFactura();}
                 else{Console.WriteLine("bye");}
-            }
-         }
-         else{
-             Console.WriteLine("mal");
-         }  
+            } 
         }
 
-        public void postFactuta()
+        public void postFactura()
         {
             TextReader readFactura;
             readFactura = new StreamReader("facturaFile.txt");
