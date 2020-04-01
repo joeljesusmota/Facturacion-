@@ -44,13 +44,13 @@ namespace Facturacion
                     nameP = Console.ReadLine();
                     Console.WriteLine("descripcion del producto");
                     description = Console.ReadLine();
-                    //Console.WriteLine("precio del producto");
-                    //price = Console.Read();
-                    //Console.WriteLine("Cantidad");
-                    //quantity = Console.Read();
+                    Console.WriteLine("precio del producto");
+                    price = Console.Read();
+                    Console.WriteLine("Cantidad");
+                    quantity = Console.Read();
 
                     //calculo
-                    // value = quantity * price;
+                    //value = quantity * price;
                     //totalValue += value;
                      
                     //imprecion
@@ -87,10 +87,10 @@ namespace Facturacion
                 
                 postFactura(); 
 
-                Console.WriteLine("Desea facturar nuevamente?  'y' o 'n'");   
+                /*Console.WriteLine("Desea facturar nuevamente?  'y' o 'n'");   
                 x = Console.ReadLine();
                 if (x == "y"){getFactura();}
-                else{Console.WriteLine("bye");}
+                else{Console.WriteLine("bye");}*/
             } 
         }
 

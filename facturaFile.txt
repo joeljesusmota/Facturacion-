@@ -73,3 +73,154 @@ Valor total:
 
 ******************************************
 
+*************** Factura: #1 **************
+Colmado Jose Luis
+Tel: 809-456-4564 | Cel: 829-456-7841 
+------------------------------------------
+Producto: #1
+Nombre: arfg
+Descripcion: qewgr
+Valor: 0
+Cantidad: 0
+Total: 0
+
+++++++++++++++++++++++++++++++++++++++++++
+Nonbre del cliente: wer
+Emicion de factura: 
+Valor total: 
+
+******************************************
+
+*************** Factura: #1 **************
+Colmado Jose Luis
+Tel: 809-456-4564 | Cel: 829-456-7841 
+------------------------------------------
+Producto: #1
+Nombre: Salami Induveca
+Descripcion: Salami
+Valor: 0
+Cantidad: 0
+Total: 0
+
+++++++++++++++++++++++++++++++++++++++++++
+Nonbre del cliente: joel
+Emicion de factura: 
+Valor total: 
+
+******************************************
+
+*************** Factura: #1 **************
+Colmado Jose Luis
+Tel: 809-456-4564 | Cel: 829-456-7841 
+------------------------------------------
+Producto: #1
+Nombre: Salami induveca
+Descripcion: salami
+Valor: 0
+Cantidad: 0
+Total: 0
+
+++++++++++++++++++++++++++++++++++++++++++
+Nonbre del cliente: y
+Emicion de factura: 
+Valor total: 
+
+******************************************
+
+*************** Factura: #1 **************
+Colmado Jose Luis
+Tel: 809-456-4564 | Cel: 829-456-7841 
+------------------------------------------
+Producto: #1
+Nombre: x
+Descripcion: x
+Valor: 0
+Cantidad: 0
+Total: 0
+------------------------------------------
+Producto: #2
+Nombre: refresco
+Descripcion: coca cola
+Valor: 0
+Cantidad: 0
+Total: 0
+
+++++++++++++++++++++++++++++++++++++++++++
+Nonbre del cliente: joel
+Emicion de factura: 
+Valor total: 
+
+******************************************
+
+*************** Factura: #1 **************
+Colmado Jose Luis
+Tel: 809-456-4564 | Cel: 829-456-7841 
+------------------------------------------
+Producto: #1
+Nombre: Refresco
+Descripcion: coca cola
+Valor: 0
+Cantidad: 0
+Total: 0
+
+++++++++++++++++++++++++++++++++++++++++++
+Nonbre del cliente: ko
+Emicion de factura: 
+Valor total: 
+
+******************************************
+
+*************** Factura: #1 **************
+Colmado Jose Luis
+Tel: 809-456-4564 | Cel: 829-456-7841 
+------------------------------------------
+Producto: #1
+Nombre: coca cola
+Descripcion: refresco
+Valor: 0
+Cantidad: 53
+Total: 0
+
+++++++++++++++++++++++++++++++++++++++++++
+Nonbre del cliente: joel
+Emicion de factura: 
+Valor total: 
+
+******************************************
+
+*************** Factura: #1 **************
+Colmado Jose Luis
+Tel: 809-456-4564 | Cel: 829-456-7841 
+------------------------------------------
+Producto: #1
+Nombre: ljhg
+Descripcion: drfh
+Valor: 0
+Cantidad: 53
+Total: 50
+
+++++++++++++++++++++++++++++++++++++++++++
+Nonbre del cliente: jj
+Emicion de factura: 
+Valor total: 
+
+******************************************
+
+*************** Factura: #1 **************
+Colmado Jose Luis
+Tel: 809-456-4564 | Cel: 829-456-7841 
+------------------------------------------
+Producto: #1
+Nombre: jowf
+Descripcion: erht
+Valor: 0
+Cantidad: 53
+Total: 0
+
+++++++++++++++++++++++++++++++++++++++++++
+Nonbre del cliente: jj
+Emicion de factura: 
+Valor total: 
+
+******************************************
+
